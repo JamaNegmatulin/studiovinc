@@ -1,0 +1,28 @@
+@font-face{
+   font-family: 'Crimson Pro Bold';
+   src: url(../fonts/Crimson_Pro/CrimsonPro-Bold.ttf);
+}
+@font-face{
+   font-family: 'Lato Bold';
+   src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face{
+   font-family: 'Lato Regular';
+   src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rubik Bold';
+    src: url(../fonts/Rubik/Rubik-Bold.ttf);
+ }
+@font-face{
+    font-family: 'Rubik Extra Bold';
+    src: url(../fonts/Rubik/Rubik-ExtraBold.ttf);
+ }
+@font-face{
+    font-family: 'Rubik Regular';
+    src: url(../fonts/Rubik/Rubik-Regular.ttf);
+ }
+ @font-face{
+   font-family: 'ruberoid extra bold';
+   src: url(../fonts/ruberoid-extra-bold.otf);
+}
