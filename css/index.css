@@ -23,6 +23,7 @@
     position: absolute;
     bottom: -20px;
     right: -120px;
+    pointer-events: none;
 }
 a:hover{
     color: #000000;
@@ -512,7 +513,7 @@ color: #000000;
     font-family: 'Rubik Regular';
     font-size: 24px;
 line-height: 28px;
-color: #C4C4C4;
+color: black;
 padding: 17px 19px;
 background: #FFFFFF;
 border: 1px solid #000000;
