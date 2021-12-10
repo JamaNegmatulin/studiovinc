@@ -506,7 +506,7 @@ left: 41%;
     z-index: 2;
     bottom: 0px;
     width: 100vw;
-    left: -1px;
+    left: 0px;
 }
 .babochka{
     position: absolute;
@@ -639,7 +639,7 @@ margin: 49px auto 0;
     position: absolute;
     bottom: 0;
     width: 100vw;
-    left: -1px;
+    left: 0px;
 }
 .container_rezultati h3{
     display: block;
@@ -656,7 +656,7 @@ font-family: 'ruberoid extra bold';
 }
 .rabota{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: solid 2px black;
     margin-bottom: 63px;
 }
@@ -668,8 +668,8 @@ border-radius: 10px;
 }
 .text_log h5{
     font-family: 'Rubik Regular';
-    font-size: 14px;
-line-height: 17px;
+    font-size: 13px;
+line-height: 15px;
 color: #FFFFFF;
 }
 .log img{
@@ -678,8 +678,8 @@ color: #FFFFFF;
 }
 .text_log h6{
     font-family: 'Rubik Regular';
-    font-size: 24px;
-line-height: 28px;
+    font-size: 18px;
+line-height: 21px;
 color: #FFFFFF;
 }
 .text_log{
@@ -687,22 +687,23 @@ color: #FFFFFF;
 }
 .left h2{
     font-family: 'Rubik Regular';
-font-size: 36px;
-line-height: 43px;
+font-size: 24px;
+line-height: 28px;
 color: #000000;
-margin-top: 40px;
+margin-top: 35px;
 
 }
 .left p{
     font-family: 'Rubik Regular';
-    font-size: 24px;
-line-height: 28px;
+    font-size: 18px;
+line-height: 21px;
 color: #000000;
 margin-top: 10px;
-max-width: 485px;
+max-width: 364px;
 }
 .right img{
-    margin-right: 70px;
+    /* margin-right: 70px; */
+    width: 78%;
 }
 .oneshans{
     background-color: black;
@@ -1115,8 +1116,9 @@ margin: 0 auto;
     }
     .left{
         max-width: 350px;
-        justify-content: center;
-        margin: 0 auto;
+        /* justify-content: center; */
+        /* margin: 0 auto; */
+        margin-left: 50px;
     }
     .logotip {
         max-width: 300px;
@@ -1239,7 +1241,15 @@ margin: 0 auto;
     .za-vami {
         font-size: 22px;
         line-height: 1.4;
-}
+    }
+    .price {
+        padding: 40px 0 30px;
+    }
+    .price__h2 {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
 @media(max-width:370px){
     .text {
         margin-bottom: 130px;
