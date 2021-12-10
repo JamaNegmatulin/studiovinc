@@ -506,7 +506,7 @@ left: 41%;
     z-index: 2;
     bottom: 0px;
     width: 100vw;
-    left: 0;
+    left: -1px;
 }
 .babochka{
     position: absolute;
@@ -639,7 +639,7 @@ margin: 49px auto 0;
     position: absolute;
     bottom: 0;
     width: 100vw;
-    left: 0;
+    left: -1px;
 }
 .container_rezultati h3{
     display: block;
